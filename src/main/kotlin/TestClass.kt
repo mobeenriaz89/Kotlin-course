@@ -105,7 +105,10 @@ println("My age is:".plus(age))
     person.mName = "cool"
     print("MName: ${person.mName}")
     //person = Person()
+    person.setTestVari("cool boy")
+    person.testVar = "asdf"
     println("the recent name is:${person.nickName}")
+    println("the recent name is:${person.testVar}")
 
     person.printInfo()
 }

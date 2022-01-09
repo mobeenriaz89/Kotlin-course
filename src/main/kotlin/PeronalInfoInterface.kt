@@ -1,3 +1,5 @@
+import inheritance.Admin
+
 interface PeronalInfoInterface {
 
     val providerInfo : String
@@ -12,7 +14,7 @@ interface SessionInfoInterface{
     fun getSessionId(): String
 }
 
-class BasicInfoProvider : PeronalInfoInterface, SessionInfoInterface{
+open class BasicInfoProvider : PeronalInfoInterface, SessionInfoInterface{
     override val providerInfo: String
         get() = "this is the interface property"
 
@@ -27,9 +29,9 @@ class BasicInfoProvider : PeronalInfoInterface, SessionInfoInterface{
 }
 
 fun main() {
-    val info = BasicInfoProvider()
-    //info.printInfo(Person())
-    checkTypes(info)
+    /*val info = PeronalInfoInterface()
+    info.printInfo(Person())*/
+    //checkTypes(info)
 }
 
 fun checkTypes(infoProvider: PeronalInfoInterface){

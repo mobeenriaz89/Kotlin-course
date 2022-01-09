@@ -18,12 +18,20 @@
     }
 }*/
 //default parameter values
-class Person(val firstName: String = "Peter", val lastName: String = "John"){
+open class Person(val firstName: String = "Peter", val lastName: String = "John"){
 
+    var testVar: String? = null
+        public set(value) {
+            field = value
+        }
+
+    fun setTestVari(value:String){
+        testVar = value
+    }
 
     // to override getter and setter provided by koltin
     var nickName: String? = null
-        private set
+        //private set
         /*set(value) {
             field = value
             print("the new nickname is $value \n")
