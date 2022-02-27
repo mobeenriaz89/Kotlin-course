@@ -1,0 +1,11 @@
+.gradle/checksums/md5-checksums.bin
+.idea/.name
+.idea/jarRepositories.xml
+build/classes/kotlin/main/PeronalInfoInterface$DefaultImpls.class
+build/classes/kotlin/main/PeronalInfoInterface.class
+build/classes/kotlin/main/PeronalInfoInterfaceKt.class
+build/classes/kotlin/main/SessionInfoInterface.class
+build/classes/kotlin/main/inheritance/Admin.class
+build/classes/kotlin/main/inheritance/Playground.class
+build/classes/kotlin/main/inheritance/PlaygroundKt.class
+build/classes/kotlin/main/inheritance/Staff.class
