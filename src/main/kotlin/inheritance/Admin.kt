@@ -1,6 +1,6 @@
 package inheritance
 
-class Admin(var adminId: String): Staff(){
+open class Admin(var adminId: String): Staff(){
 
 
     override fun userData() {
