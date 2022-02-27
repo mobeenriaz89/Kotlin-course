@@ -9,5 +9,5 @@ class PlayGround private constructor(val id: String){
 
 fun main(){
     val inst = PlayGround.createInst()  //Java: val inst = PlayGround.Companion.createInst()
-    
+
 }
